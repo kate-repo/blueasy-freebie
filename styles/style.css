@@ -220,18 +220,25 @@ header ul li a:hover {
 
 .portfolio-items {
     display: none;
-    margin: 0 -13px;
+    margin: -15px;
 }
 
 .portfolio-items#all {
     display: block;
 }
 
-.portfolio-item {
+.portfolio-item-wrapper {
     display: inline-block;
-    height: 270px;
-    width: 270px;
-    margin: 0 13px 30px;
+    margin: 15px;
+}
+
+.portfolio-item-wrapper:hover {
+    cursor: pointer;
+}
+
+.portfolio-item {
+    height: 267px;
+    width: 267px;
     position: relative;
 }
 
