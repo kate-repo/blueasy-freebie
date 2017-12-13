@@ -25,6 +25,10 @@
     float: right;
 }
 
+section {
+    width: 100%;
+}
+
 header {
     background: #353f46;
     padding: 65px 0;
@@ -230,6 +234,9 @@ header ul li a:hover {
 .portfolio-item-wrapper {
     display: inline-block;
     margin: 15px;
+    height: 267px;
+    width: 267px;
+    overflow: hidden;
 }
 
 .portfolio-item-wrapper:hover {
@@ -237,9 +244,9 @@ header ul li a:hover {
 }
 
 .portfolio-item {
-    height: 267px;
-    width: 267px;
     position: relative;
+    display: block;
+    filter: grayscale(100%);
 }
 
 .portfolio-item:before {
@@ -288,43 +295,7 @@ header ul li a:hover {
     opacity: 1;
 }
 
-.portfolio-item.panorama_1 {
-    background: url("../img/portfolio_1.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.panorama_2 {
-    background: url("../img/portfolio_2.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.portrait_1 {
-    background: url("../img/portfolio_3.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.portrait_2 {
-    background: url("../img/portfolio_4.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.macro_1 {
-    background: url("../img/portfolio_5.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.macro_2 {
-    background: url("../img/portfolio_6.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.journal_1 {
-    background: url("../img/portfolio_7.png") center no-repeat;
-    background-size: cover;
-}
-
-.portfolio-item.journal_2 {
-    background: url("../img/portfolio_8.png") center no-repeat;
+.blueimp-gallery > .indicator > li {
     background-size: cover;
 }
 
